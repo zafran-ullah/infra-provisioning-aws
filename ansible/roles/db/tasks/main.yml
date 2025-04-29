@@ -1,0 +1,13 @@
+---
+- name: Install MariaDB (MySQL) on Amazon Linux
+  become: true
+  yum:
+    name: mariadb105-server
+    state: present
+
+- name: Start and enable MariaDB
+  become: true
+  service:
+    name: mariadb
+    state: started
+    enabled: true

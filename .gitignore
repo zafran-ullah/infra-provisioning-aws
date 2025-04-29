@@ -1,0 +1,31 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash/
+*.log
+*.tfvars
+override.tf
+override.tf.json
+terraform.tfvars.json
+terraform.tfvars
+backend.tf
+
+# Sensitive output
+output.json
+inventory.json
+
+# SSH Keys
+*.pem
+*.pub
+.ssh/
+
+# Ansible
+*.retry
+
+# Puppet
+*.log
+
+# OS/System files
+.DS_Store
+*.swp

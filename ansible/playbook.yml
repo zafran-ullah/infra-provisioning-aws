@@ -1,0 +1,7 @@
+---
+- name: Setup Web and DB Server on Amazon Linux
+  hosts: web
+  become: true
+  roles:
+    - web
+    - db   
