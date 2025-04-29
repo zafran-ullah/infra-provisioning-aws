@@ -11,4 +11,7 @@ This project provisions a 3-tier architecture on AWS using Terraform and configu
   - DB Server (MariaDB)
 - **Provisioning**:
   - Infrastructure: **Terraform**
-  - Configuration: **Ansible** 
+  - Configuration: **Ansible**
+ 
+  - **Note**
+  - Edit inventory.ini and replace IPs with your actual EC2 instance addresses
